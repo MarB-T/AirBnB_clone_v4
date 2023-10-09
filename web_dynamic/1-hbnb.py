@@ -14,7 +14,6 @@ port = 5000
 host = '0.0.0.0'
 
 
-# begin flask page rendering
 @app.teardown_appcontext
 def teardown_db(exception):
     """
